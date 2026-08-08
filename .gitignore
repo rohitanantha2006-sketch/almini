@@ -1,0 +1,6 @@
+BackEnd/node_modules/
+BackEnd/.env
+BackEnd/server-out.log
+BackEnd/server-err.log
+.DS_Store
+Thumbs.db

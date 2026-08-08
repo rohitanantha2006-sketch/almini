@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta
+    name="description"
+    content="Christ Church Alumni Association celebrates a 200+ year legacy through alumni connection, membership, events, and community engagement."
+  >
+  <title>Christ Church Alumni Association</title>
+  <link rel="icon" href="assets/icons/favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="site-body">
+  <header class="site-header">
+    <nav class="navbar" aria-label="Main navigation">
+      <div class="navbar__brand">
+        <a href="#home" class="navbar__logo">Christ Church Alumni Association</a>
+      </div>
+      <button
+        class="navbar__toggle"
+        type="button"
+        aria-label="Toggle navigation"
+        aria-expanded="false"
+        aria-controls="primary-navigation"
+      >
+        <span class="navbar__toggle-line"></span>
+        <span class="navbar__toggle-line"></span>
+        <span class="navbar__toggle-line"></span>
+      </button>
+      <ul class="navbar__menu" id="primary-navigation">
+        <li class="navbar__item"><a href="#home" class="navbar__link">Home</a></li>
+        <li class="navbar__item"><a href="#features" class="navbar__link">Features</a></li>
+        <li class="navbar__item"><a href="#alumni-network" class="navbar__link">Alumni Network</a></li>
+        <li class="navbar__item"><a href="#membership" class="navbar__link">Membership</a></li>
+        <li class="navbar__item"><a href="#contact" class="navbar__link">Contact</a></li>
+        <li class="navbar__item"><a href="login.html" class="navbar__link">Admin Login</a></li>
+        <li class="navbar__item"><button id="logoutBtn" class="navbar__action" type="button">Logout</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero reveal-on-scroll" id="home">
+      <div class="hero__content">
+        <div class="hero__main">
+          <p class="hero__eyebrow">A heritage institution. A global alumni fraternity.</p>
+          <h1 class="hero__title">Christ Church Alumni Association</h1>
+          <p class="hero__subtitle">
+            Honouring a 200+ year legacy of scholarship, character, and service by bringing together
+            Christ Church alumni across generations and across the world.
+          </p>
+          <div class="hero__actions">
+            <a href="#registration" class="button button--primary">Join Alumni Network</a>
+            <a href="alumni.html" class="button button--secondary">Explore Alumni Community</a>
+          </div>
+        </div>
+        <div class="hero__heritage" aria-label="Institution overview">
+          <p class="hero__panel-label">Established Legacy</p>
+          <h2 class="hero__panel-title">200+ Years of Academic Heritage</h2>
+          <p class="hero__panel-text">
+            A distinguished school community rooted in tradition, strengthened by enduring values,
+            and connected through a modern alumni platform.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="heritage-section" id="alumni-network">
+      <div class="section-heading">
+        <p class="section-heading__eyebrow">Heritage and fellowship</p>
+        <h2 class="section-heading__title">Over Two Centuries of Legacy</h2>
+      </div>
+      <div class="heritage-section__content">
+        <p class="heritage-section__text">
+          Christ Church School has shaped generations of students for more than two centuries,
+          building a tradition of academic excellence, discipline, leadership, and service. The
+          alumni network extends that legacy by reconnecting old friends, supporting present
+          students, and preserving the spirit of the school for future generations.
+        </p>
+      </div>
+    </section>
+
+    <section class="stats-section reveal-on-scroll" aria-labelledby="stats-title">
+      <div class="section-heading">
+        <p class="section-heading__eyebrow">Network at a glance</p>
+        <h2 class="section-heading__title" id="stats-title">Alumni Statistics</h2>
+      </div>
+      <div class="stats-grid">
+        <article class="stat-card">
+          <h3 class="stat-card__value">
+            <span class="stat-card__number" data-counter="200" data-suffix="+">0+</span>
+          </h3>
+          <p class="stat-card__label">Years of Academic Heritage</p>
+        </article>
+        <article class="stat-card">
+          <h3 class="stat-card__value">
+            <span class="stat-card__number" data-counter="15000" data-suffix="+">0+</span>
+          </h3>
+          <p class="stat-card__label">Alumni Worldwide</p>
+        </article>
+        <article class="stat-card">
+          <h3 class="stat-card__value">
+            <span class="stat-card__number" data-counter="120" data-suffix="+">0+</span>
+          </h3>
+          <p class="stat-card__label">Countries Represented</p>
+        </article>
+        <article class="stat-card">
+          <h3 class="stat-card__value">
+            <span class="stat-card__number" data-counter="500" data-suffix="+">0+</span>
+          </h3>
+          <p class="stat-card__label">Active Members</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="features-section" id="features" aria-labelledby="features-title">
+      <div class="section-heading">
+        <p class="section-heading__eyebrow">What the platform offers</p>
+        <h2 class="section-heading__title" id="features-title">Features for a Connected Alumni Community</h2>
+      </div>
+      <div class="features-grid">
+        <article class="feature-card">
+          <h3 class="feature-card__title">Alumni Directory</h3>
+          <p class="feature-card__text">Connect with alumni across graduating batches.</p>
+        </article>
+        <article class="feature-card">
+          <h3 class="feature-card__title">Events and Reunions</h3>
+          <p class="feature-card__text">Organize alumni meetups and school events.</p>
+        </article>
+        <article class="feature-card">
+          <h3 class="feature-card__title">Donations and School Support</h3>
+          <p class="feature-card__text">Allow alumni to contribute to school initiatives.</p>
+        </article>
+        <article class="feature-card">
+          <h3 class="feature-card__title">Career Networking</h3>
+          <p class="feature-card__text">Mentorship and professional connections.</p>
+        </article>
+        <article class="feature-card">
+          <h3 class="feature-card__title">Community Updates</h3>
+          <p class="feature-card__text">Share alumni achievements and school news.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="membership-section reveal-on-scroll" id="membership" aria-labelledby="membership-title">
+      <div class="section-heading">
+        <p class="section-heading__eyebrow">Membership and support</p>
+        <h2 class="section-heading__title" id="membership-title">Annual Alumni Membership</h2>
+      </div>
+      <div class="membership-section__content">
+        <div class="membership-plans">
+          <article class="membership-plan-card">
+            <div class="membership-plan-card__body">
+              <h3 class="membership-plan-card__title">Monthly Plan</h3>
+              <p class="membership-plan-card__description">
+                A flexible recurring option for alumni who want to stay connected and support the network month by month.
+              </p>
+              <p class="membership-plan-card__price" aria-label="Monthly membership price">Price placeholder</p>
+            </div>
+            <button class="button button--primary membership-plan-card__button" type="button" data-plan-select="monthly">
+              Select Plan
+            </button>
+          </article>
+
+          <article class="membership-plan-card">
+            <div class="membership-plan-card__body">
+              <h3 class="membership-plan-card__title">Quarterly Plan</h3>
+              <p class="membership-plan-card__description">
+                A balanced membership option for alumni who prefer a shorter commitment with regular alumni engagement.
+              </p>
+              <p class="membership-plan-card__price" aria-label="Quarterly membership price">Price placeholder</p>
+            </div>
+            <button class="button button--primary membership-plan-card__button" type="button" data-plan-select="quarterly">
+              Select Plan
+            </button>
+          </article>
+
+          <article class="membership-plan-card">
+            <div class="membership-plan-card__body">
+              <h3 class="membership-plan-card__title">Yearly Plan</h3>
+              <p class="membership-plan-card__description">
+                The complete annual membership for alumni who want uninterrupted access, updates, and community participation.
+              </p>
+              <p class="membership-plan-card__price" aria-label="Yearly membership price">Price placeholder</p>
+            </div>
+            <button class="button button--primary membership-plan-card__button" type="button" data-plan-select="yearly">
+              Select Plan
+            </button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="registration-section reveal-on-scroll" id="registration" aria-labelledby="registration-title">
+      <div class="section-heading">
+        <p class="section-heading__eyebrow">Join the network</p>
+        <h2 class="section-heading__title" id="registration-title">Alumni Registration Form</h2>
+      </div>
+      <form class="registration-form" action="#" method="post">
+        <div class="form-field">
+          <label for="full-name" class="form-field__label">Full Name</label>
+          <input id="full-name" name="full_name" type="text" class="form-field__input" required>
+        </div>
+        <div class="form-field">
+          <label for="email-address" class="form-field__label">Email Address</label>
+          <input id="email-address" name="email" type="email" class="form-field__input" required>
+        </div>
+        <div class="form-field">
+          <label for="phone-number" class="form-field__label">Phone Number</label>
+          <input id="phone-number" name="phone" type="tel" class="form-field__input" required>
+        </div>
+        <div class="form-field">
+          <label for="graduation-year" class="form-field__label">Graduation Year</label>
+          <input id="graduation-year" name="graduation_year" type="number" class="form-field__input" min="1900" max="2100" required>
+        </div>
+        <div class="form-field">
+          <label for="membership-plan" class="form-field__label">Membership Plan</label>
+          <select id="membership-plan" name="membership_plan" class="form-field__input" required>
+            <option value="" selected disabled>Select a plan</option>
+            <option value="monthly">Monthly Plan</option>
+            <option value="quarterly">Quarterly Plan</option>
+            <option value="yearly">Yearly Plan</option>
+          </select>
+        </div>
+        <div class="form-field">
+          <label for="group" class="form-field__label">Group</label>
+          <input id="group" name="group" type="text" class="form-field__input" placeholder="Enter your group" required>
+        </div>
+        <div class="form-actions">
+          <button type="submit" class="button button--primary">Submit Registration</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="contact">
+    <div class="footer-grid">
+      <section class="footer-section">
+        <h2 class="footer-section__title">Platform</h2>
+        <ul class="footer-links">
+          <li><a href="#alumni-network" class="footer-link">Alumni Directory</a></li>
+          <li><a href="#features" class="footer-link">Events</a></li>
+          <li><a href="#membership" class="footer-link">Membership</a></li>
+        </ul>
+      </section>
+
+      <section class="footer-section">
+        <h2 class="footer-section__title">Company</h2>
+        <ul class="footer-links">
+          <li><a href="#alumni-network" class="footer-link">About</a></li>
+          <li><a href="pages/contact-us.html" class="footer-link">Contact Us</a></li>
+        </ul>
+      </section>
+
+      <section class="footer-section">
+        <h2 class="footer-section__title">Legal Pages</h2>
+        <ul class="footer-links">
+          <li><a href="pages/terms.html" class="footer-link">Terms and Conditions</a></li>
+          <li><a href="pages/privacy-policy.html" class="footer-link">Privacy Policy</a></li>
+          <li><a href="pages/shipping-policy.html" class="footer-link">Shipping Policy</a></li>
+          <li><a href="pages/refund-policy.html" class="footer-link">Cancellation and Refund Policy</a></li>
+        </ul>
+      </section>
+
+      <section class="footer-section">
+        <h2 class="footer-section__title">Contact</h2>
+        <address class="footer-contact">
+          <p><a href="mailto:alumni@christchurchschool.org" class="footer-link">alumni@christchurchschool.org</a></p>
+          <p><a href="tel:+91XXXXXXXXXX" class="footer-link">+91 XXXXX XXXXX</a></p>
+        </address>
+      </section>
+    </div>
+
+    <section class="compliance-notes" aria-labelledby="compliance-title">
+      <h2 class="compliance-notes__title" id="compliance-title">Legal and Payment Compliance Notes</h2>
+      <div class="compliance-notes__grid">
+        <article class="compliance-card">
+          <h3 class="compliance-card__title">Shipping Policy</h3>
+          <p class="compliance-card__text">
+            Christ Church Alumni Association membership is a digital service. No physical goods are
+            shipped as part of the membership subscription.
+          </p>
+        </article>
+        <article class="compliance-card">
+          <h3 class="compliance-card__title">Cancellation and Refund Policy</h3>
+          <p class="compliance-card__text">
+            Membership payments are non-refundable once the membership has been activated and the
+            associated digital access has been granted.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <div class="site-footer__bottom">
+      <p class="site-footer__copy">
+        &copy; 2026 Christ Church Alumni Association. Preserving heritage, strengthening alumni ties.
+      </p>
+    </div>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+  <script src="assets/js/logout.js"></script>
+</body>
+</html>

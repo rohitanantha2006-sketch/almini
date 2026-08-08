@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta
+    name="description"
+    content="Browse the Christ Church Alumni Association community grouped by graduating batch."
+  >
+  <title>Alumni Community</title>
+  <link rel="icon" href="assets/icons/favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="site-body" data-view="public">
+  <header class="site-header">
+    <nav class="navbar" aria-label="Main navigation">
+      <div class="navbar__brand">
+        <a href="index.html" class="navbar__logo">Christ Church Alumni Association</a>
+      </div>
+      <button
+        class="navbar__toggle"
+        type="button"
+        aria-label="Toggle navigation"
+        aria-expanded="false"
+        aria-controls="primary-navigation"
+      >
+        <span class="navbar__toggle-line"></span>
+        <span class="navbar__toggle-line"></span>
+        <span class="navbar__toggle-line"></span>
+      </button>
+      <ul class="navbar__menu" id="primary-navigation">
+        <li class="navbar__item"><a href="index.html" class="navbar__link">Home</a></li>
+        <li class="navbar__item"><a href="index.html#features" class="navbar__link">Features</a></li>
+        <li class="navbar__item"><a href="alumni.html" class="navbar__link">Alumni Network</a></li>
+        <li class="navbar__item"><a href="index.html#membership" class="navbar__link">Membership</a></li>
+        <li class="navbar__item"><a href="index.html#contact" class="navbar__link">Contact</a></li>
+        <li class="navbar__item"><a href="login.html" class="navbar__link">Admin Login</a></li>
+        <li class="navbar__item"><button id="logoutBtn" class="navbar__action" type="button">Logout</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="alumni-page">
+    <section class="alumni-page__hero">
+      <div class="section-heading">
+        <p class="section-heading__eyebrow">Alumni community</p>
+        <h1 class="section-heading__title">Alumni Community</h1>
+      </div>
+      <p class="alumni-page__intro">
+        Explore registered alumni grouped by graduating batch and see how the Christ Church Alumni
+        Association community is growing.
+      </p>
+    </section>
+
+    <div id="alumni-container" class="alumni-container" aria-live="polite"></div>
+  </main>
+
+  <script src="assets/js/alumni.js"></script>
+  <script src="assets/js/logout.js"></script>
+</body>
+</html>
